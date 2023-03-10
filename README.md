@@ -1,15 +1,11 @@
 # Fusion360AprilTag2CAD
 
 An Autodesk [Fusion 360](https://www.autodesk.com/products/fusion-360/overview) add-in
-for converting PNG AprilTag images to a Fusion 360 solid model.
-
-The resultant model can then be exporting to an STL file to be 3D printed. 
+for converting PNG AprilTag images to a Fusion 360 solid model by using the [Fusion 360 Python API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-3781-4925-94C6-47DA85A4F65A). The resultant model can then be exporting to an STL file to be 3D printed. 
 
 Pre-generated AprilTag images can be downloaded from the
 [apriltag-imgs](https://github.com/AprilRobotics/apriltag-imgs) GitHub repository. 
 
-[Fusion 360 API
-Documentation](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-3781-4925-94C6-47DA85A4F65A)
 
 ## Installation
 
@@ -31,16 +27,13 @@ Documentation](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-
 1. Select the PNG file you want to convert. 
 1. Optionally choose to save the new Fusion Document and export it to an STL file.
 
-
-
 https://user-images.githubusercontent.com/17363991/224447717-ab17ceda-34ce-46ba-9b03-b90dcfd0b68a.mov
 
 
-
-*NOTE: This add-in uses only Python standard library so no additional modules need to be
-installed in the Fusion 360 Python environment.* 
-
-*NOTE: This add-in could also be run as a Fusion 360 script by taking the
+## Notes
+- This add-in uses only Python standard library so no additional modules need to be
+installed in the Fusion 360 Python environment.
+- This add-in could also be run as a Fusion 360 script by taking the
 [apriltag_to_cad](./commands/createAprilTagModel/apriltag_to_cad.py) and
 [png_util](./commands/createAprilTagModel/apriltag_to_cad.py) modules and running them
 from a Fusion 360 script.
