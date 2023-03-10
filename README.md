@@ -17,20 +17,23 @@ Documentation](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-A92A4B10-
 1. Open Fusion 360, click the `Scripts and Add-Ins` command from the `UTILITIES` tab in
    the toolbar. When the dialog opens, click the `Add-Ins` tab, then the green `+` next
    to `My Add-Ins`.
-   [](/.doc/fusion360_addins_menu.png).
+![fusion360_addins_menu](https://user-images.githubusercontent.com/17363991/224447667-f286f95b-a117-4f42-b29c-98f134803f03.png)
 1. Choose the directory that this repository was downloaded to. 
 1. Click `Run`
 1. An `AprilTag2CAD` command icon should now exist next to the  `Scripts and Add-Ins`
    command.  
-[](/.doc/fusion360_apriltag_icon.png)
+![fusion360_apriltag_icon](https://user-images.githubusercontent.com/17363991/224447706-b4410381-eae7-4180-9e6f-d6eec5956974.png)
+
 
 ## Usage
 
 1. Click the `AprilTag2CAD` command from the `UTILITIES` tab.
 1. Select the PNG file you want to convert. 
-1. Select the output directory for the STL file. 
+1. Optionally choose to save the new Fusion Document and export it to an STL file.
 
-[Demo Video]()
+
+
+https://user-images.githubusercontent.com/17363991/224447717-ab17ceda-34ce-46ba-9b03-b90dcfd0b68a.mov
 
 
 
