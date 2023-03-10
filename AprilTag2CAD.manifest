@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"66cf804c-5f9b-4877-9f68-671ef830680d",
+	"author":	"James Emerick",
+	"description":	{
+		"":	"Takes an AprilTag PNG file and creates a Fusion 360 CAD model."
+	},
+	"version":	"0.0.1",
+	"runOnStartup":	true,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
